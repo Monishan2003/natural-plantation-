@@ -5,6 +5,7 @@
 
   export default defineConfig({
     plugins: [react()],
+    base: './natural-plantation',
     resolve: {
       extensions: ['.js', '.jsx', '.ts', '.tsx', '.json'],
       alias: {
